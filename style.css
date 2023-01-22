@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* menu design */
+.menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: white;
+}
+.menu li{
+    float:right;
+    font-family: 'heebo';
+    color: rgb(186, 142, 86);
+    padding:8px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.menu li:hover{
+    color: rgb(218, 70, 37);
+}
+.menu p{
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px;
+    color:  rgb(186, 142, 86);;
+    font-weight: 700;
+    font-family: 'Great Vibes';
+    font-size: 25px;
+    padding-left: 14px;
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    background-image: url("back1.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+   
+}
+.content .par{
+    padding-top: 120px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 80px;
+    color: aliceblue;
+    font-family: 'Heebo';
+    font-size: 25px;
+    font-weight: 400;
+}
+.content .par p{
+    margin-bottom: -30px; /* Decreasing the space between the paragraph and header*/
+    font-size: 20px;
+    color: rgb(218, 70, 37);
+    font-family: 'Great Vibes';
+    font-weight: 700;
+    
+}
+.content .par h1{
+    margin-bottom: 0px;
+}
+.content .par button{
+    border-radius: 0px;
+    border: 1px solid orange;
+    padding: 8px 12px; /* top and bottom 8 , left and right 12 */
+    background-color: orange;
+}
+.about{
+    background-color: white;
+    height: 200px;
+}
+.para {
+    color: rgb(186, 142, 86);
+    font-family: 'heebo';
+    margin:70px;
+}
+.title{
+    color: rgb(186, 142, 86);
+    font-family: 'heebo';
+    margin:70px;
+}
+.menucoffee{
+    height: 900px;
+    display: grid;
+    grid-template-rows: 250px 250px 250px ;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: space-evenly;
+    grid-row-gap: 70px;
+}
+.item{
+    background-size: cover;
+    min-height: 100%;
+    background-repeat: no-repeat;
+}
+.item1{
+    background-image: url("row11.jpg");
+    background-position: center center ;
+}
+.item2{
+    background-image: url("row12.jpg");
+    background-position: center center center;
+}
+.item3{
+    background-image: url("row13.jpg");
+    background-position: center center;
+}
+.item4{
+    background-image: url("row21.jpg");
+    background-position: center center;
+}
+.item5{
+    background-image: url("row22.jpg");
+    background-position: center center;
+}
+.item6{
+    background-image: url("row23.jpg");
+    background-position: center center;
+}
+.item7{
+    background-image: url("row31.jpg");
+    background-position: center center;
+}
+.item8{
+    background-image: url("row32.jpg");
+    background-position: center center;
+}
+.item9{
+    background-image: url("row33.jpg");
+    background-position: center center;
+}
+.name{
+    color: rgb(186, 142, 86) ;
+    text-align: center;
+}
+.services{
+    height: 200px;
+    background-color: white;
+}
+.services .para{
+    font-family: 'heebo';
+    margin: 70px;
+}
+.contact{
+    height: 200px;
+    background-color: rgb(42, 45, 45);
+}
+.contact .para{
+    color: white;
+    padding-top: 70px;
+    margin: 70px;
+}
+.contact .para .social i{
+    padding-left: 20px;
+}
